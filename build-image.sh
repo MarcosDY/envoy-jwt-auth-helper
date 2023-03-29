@@ -4,7 +4,7 @@
 
 DOCKER_IMAGE="envoy-jwt-auth-helper"
 SERVICE_VERSION="1.0.0"
-GCR_REPOSITORY="us.gcr.io/scytale-registry"
+GCR_REPOSITORY="${MY_USER}"
 
 echo "Building ${DOCKER_IMAGE}"
 docker build --no-cache --tag ${DOCKER_IMAGE} .

@@ -6,9 +6,9 @@ import (
 	"log"
 	"strings"
 
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	auth "github.com/envoyproxy/go-control-plane/envoy/service/auth/v2"
-	envoy_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
+	auth "github.com/envoyproxy/go-control-plane/envoy/service/auth/v3"
+	envoy_type "github.com/envoyproxy/go-control-plane/envoy/type/v3"
 	"github.com/gogo/googleapis/google/rpc"
 	"github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/spiffe/go-spiffe/v2/svid/jwtsvid"
